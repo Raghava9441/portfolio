@@ -1,0 +1,64 @@
+.a {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+
+    &__left {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+    }
+    &__right {
+        flex: 1;
+        font-size: 1.6rem;
+    }
+    &__card {
+        width: 60%;
+        height: 70vh;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+        &--bg {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: #333;
+        }
+    }
+    &__title{
+        font-weight: 400;
+    }
+    &__sub{
+        margin: 2rem 0rem;
+    }
+    &__desc{
+        font-weight: 300;
+    }
+    &__award{
+        margin: 2rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__img {
+        width: 100%;
+        border-radius: 30px;
+        object-fit: cover;
+    }
+    &__award-img{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 2rem;
+    }
+    &__award-texts{
+        width: 70%;
+    }
+    &__award-title{
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 10px;
+    }
+}

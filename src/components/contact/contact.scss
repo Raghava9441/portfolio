@@ -1,0 +1,71 @@
+.c {
+    height: 100vh;
+    position: relative;
+    font-size: 1.6rem;
+    &__bg {
+        width: 2rem;
+        height: 100%;
+        background-color: #59b256;
+        position: absolute;
+    }
+    &__wrapper {
+        padding: 5rem;
+        display: flex;
+    }
+    &__left {
+        flex: 1;
+    }
+    &__right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {
+        font-size: 6rem;
+        width: 80%;
+    }
+    &__info-item {
+        display: flex;
+        align-items: center;
+        margin: 5rem 0;
+        font-weight: 300;
+    }
+    &__icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 2rem;
+    }
+    &__desc {
+        margin-top: 3rem;
+        font-weight: 200;
+    }
+    &__form {
+        margin-top: 20px;
+    }
+    &__input {
+        width: 50%;
+        height: 5rem;
+        border: none;
+        border-bottom: 1px solid black;
+        margin: 1rem 0px;
+        font-size: 1.4rem;
+        padding-left: 1rem;
+    }
+    &__textarea {
+        width: 100%;
+        margin: 1rem 0px;
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        margin-top: 1rem;
+    }
+    &__button{
+        border: none;
+        padding: 1.5rem;
+        background-color: #59b256;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+    }
+}

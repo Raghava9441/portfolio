@@ -1,0 +1,31 @@
+.t{
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: 1pxsolid #999;
+    background-color: #fff;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    &__button{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        border: 1px solid #999;
+        background-color: #999;
+
+        position: absolute;
+        cursor: pointer;
+        &:hover{
+            background-color: #eee;
+        }
+    }
+}
