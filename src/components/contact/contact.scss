@@ -69,3 +69,37 @@
         cursor: pointer;
     }
 }
+@media screen and (max-width: 480px) {
+    .c__wrapper{
+        flex-direction: column;
+        
+    }
+    .c__title{
+        font-size: 3rem;
+    }
+    .c__info-item{
+        margin: 2rem 0;
+        width: 100%;
+    }
+    .c__desc{
+        display: none;
+    }
+    .c__form {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .c__input{
+        width: 35%;
+        height: 4rem;
+        margin: 1rem;
+        margin-right: 0;
+    }
+    .c__textarea{
+        margin-top: 10px;
+    }
+    .c__button{
+        margin-top: 10px;
+    }
+}
